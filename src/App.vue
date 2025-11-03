@@ -2,7 +2,7 @@
   <div class="max-w-lg mx-auto py-20">
     <AgeInput 
       label="Samuel is"
-      image-url="/student.jpg"
+      image-url="student.jpg"
       caption="hours old"
       v-model="inputValue"
     />
