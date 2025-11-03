@@ -18,4 +18,6 @@ export default defineConfig({
       '@fonts': fileURLToPath(new URL('./src/assets/fonts', import.meta.url)),
     },
   },
+  base: '/front-task/',
+  build: { outDir: 'docs' }
 })
